@@ -1,0 +1,12 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+pydantic>=2.8
+python-dotenv>=1.0
+chess>=1.11            # python-chess: board, legal moves, SAN
+httpx>=0.27            # TypeSafe / Jev HTTP API
+boto3>=1.40            # Amazon Bedrock Converse API
+langchain-core>=0.3
+langgraph>=0.4
+langfuse>=3.0,<4       # optional tracing; no-op when keys are unset
+deepeval>=3.0          # evals (evals/)
+pytest>=8.0
